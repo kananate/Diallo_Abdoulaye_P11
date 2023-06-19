@@ -1,6 +1,6 @@
 import React from "react";
 import ErrorPage from "../components/error";
-import Footer from "../components/footer";
+import Footer from "../components/footer"; 
 import Header from "../components/header";
 
 const NotFound = () => {
@@ -11,7 +11,7 @@ const NotFound = () => {
         <main>
           <ErrorPage />
         </main>
-        <Footer />
+        <Footer /> 
       </div>
     </>
   );

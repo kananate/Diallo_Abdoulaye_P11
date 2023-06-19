@@ -3,7 +3,7 @@ import Header from "../components/header";
 import Banner from "../components/banner";
 import imgHomeBanner from "../assets/banner/homeBanner.png";
 import Gallery from "../components/gallery";
-import Footer from "../components/footer";
+import Footer from "../components/footer"; 
 
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
         <Banner texte="Chez vous, partout et ailleurs" image={imgHomeBanner} /> 
         <Gallery />       
       </main>
-        <Footer />
+       <Footer /> 
       </div>
     );
   };

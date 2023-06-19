@@ -4,10 +4,10 @@ import Nav from "./nav";
 export default function Header() {
   return (
     <header className="header">
-      <figure className="header-logo">
+      <figure className="headerLogo">
         <img className="logo" src={logo} alt="logo de l'agence kasa" />
       </figure>
-      <Nav className="nav-header" />
+      <Nav className="navHeader" />
     </header>
   );
 }
