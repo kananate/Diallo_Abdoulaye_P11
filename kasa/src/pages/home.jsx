@@ -5,7 +5,6 @@ import imgHomeBanner from "../assets/banner/homeBanner.png";
 import Gallery from "../components/gallery";
 import Footer from "../components/footer"; 
 
-
 const Home = () => {
     return (
       <div className="home">

@@ -5,7 +5,7 @@ function Banniere({ image, texte }) {
   return (
     <div className="banner">
       <img className="bannerImg" src={image} alt="Bannière" /> 
-      <div className="banner-sombre"></div>     
+      <div className="bannerBack"></div>     
       <span className="bannerTxt">{texte}</span>
     </div>
   );

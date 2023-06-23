@@ -7,16 +7,14 @@ import {
   Navigate,
 } from "react-router-dom";
 
-//style by Sass Partials
+//style css
 import "./styles/main.css";
 
-//pages by React BrowserRouter
+//pages by React router
 import Home from "./pages/home";
 import About from "./pages/about";
 import FicheLogement from "./pages/singleProduct";
 import NotFound from "./pages/errorPage";
-/* import Footer from "./components/footer";  */
-
 
 function App() {
   return (

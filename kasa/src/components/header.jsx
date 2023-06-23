@@ -7,7 +7,9 @@ export default function Header() {
       <figure className="headerLogo">
         <img className="logo" src={logo} alt="logo de l'agence kasa" />
       </figure>
-      <Nav className="navHeader" />
+      <Nav className= {({ isActive }) =>
+            isActive ? "active" : "inactive"
+          }/>
     </header>
   );
 }

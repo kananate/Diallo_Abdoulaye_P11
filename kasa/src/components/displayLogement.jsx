@@ -1,7 +1,6 @@
-//import React, { useState } from "react";
 import React from "react";
 import { useParams, Navigate } from "react-router-dom"
-import DataFichLogement from "../data/kasa.json";
+import DataFicheLogement from "../data/kasa.json";
 import Tag from "./tag";
 import Collapse from "./collapse";
 import Carrousel from "./carrousel";
@@ -11,8 +10,7 @@ import Host from "./host";
 const DisplayLogement = () => {
   /* Récupère la bonne fiche */
   let { id } = useParams();
-
-  const ficheLogement = DataFichLogement.find((logement) => logement.id === id);
+  const ficheLogement = DataFicheLogement.find((logement) => logement.id === id);
 
   /* Tags */
   const tagsLogement = ficheLogement?.tags.map((tags, i) => {
@@ -67,12 +65,12 @@ const DisplayLogement = () => {
           <div className="col-desc">
             <div className="col-centent-desc">
               <Collapse
-                title="Desc"
+                title="Description"
                 content={ficheLogement?.description}
               />
             </div>
             <div className="col-centent-desc-equipement">
-              <Collapse title="equipements" content={equipements} />
+              <Collapse title="Équipements" content={equipements} />
             </div>
           </div>
         </div>
