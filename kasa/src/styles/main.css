@@ -46,6 +46,7 @@ main {
   color: #ff6060;
   text-decoration: none;
   padding-left: 0.8rem;
+  font-size: 12px;
 }
 .active{
   text-decoration-line: underline;
@@ -195,7 +196,7 @@ main {
 
 .errorLink {
   color: #ff6060;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   margin-top: 133px;
 }
@@ -238,6 +239,9 @@ main {
   background-color: #F6F6F6;
   padding-top: 10px; 
 }
+.collapseDropdownTitle h2{
+  font-size: 13px;
+} 
 
 .collapseDropdownContent p {
   color: #ff6060;
@@ -555,6 +559,10 @@ i {
     height: 223px;
 
   }
+  .homeNavLink,
+.aboutNavLink {
+  font-size: 24px;
+}
 
   .bannerTxt {
     top: 0;
@@ -606,6 +614,9 @@ i {
     font-size: 23px;
     line-height: 32px;
   }
+   .collapseDropdownTitle h2{
+    font-size: 26px;
+  } 
 
   /****tag****/
   .tag-button {
@@ -641,7 +652,7 @@ i {
   }
 
   .titre-logement {
-    font-size: 36px;
+    font-size: 18px;
     font-weight: 500;
     display: flex;
     align-items: flex-end;
@@ -784,14 +795,15 @@ i {
 
   }
 
-  .footer-text {
+  .footerText {
     font-size: 20px;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    /* margin-bottom: 30px; */
   }
 
   .footer {
-    justify-content: end;
+    justify-content:center;
+    padding-top: 50px;
   }
 
 }
@@ -820,9 +832,7 @@ i {
     font-size: 18px;
   }
 
-  .footer-text {
-    font-size: 24px;
-  }
+  
 }
 
 /****finresponsive**************/
